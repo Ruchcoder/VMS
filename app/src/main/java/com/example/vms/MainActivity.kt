@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
 
             teamAScore.text = "Team A:$aScore"
             teamBScore.text = "Team B:$bScore"
+            aScore = "20"
 
 
 
