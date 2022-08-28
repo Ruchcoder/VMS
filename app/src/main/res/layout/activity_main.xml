@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/teamAScore"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="Team A:0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/teamBScore"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="Team B:0"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/enterTeamAScore"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:hint="Enter Team A score"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/enterTeamBScore"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Enter Team B score"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="ADD SCORE"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
